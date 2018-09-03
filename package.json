@@ -1,0 +1,35 @@
+{
+  "name": "fiberhome-network-mapper",
+  "version": "1.0.0",
+  "description": "FiberHome Network Mapper",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node_modules/.bin/tslint --project .",
+    "example": "node_modules/.bin/ts-node examples/example.ts",
+    "build": "node_modules/.bin/tsc --noStrictGenericChecks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilchaddha/fiberhome-network-mapper.git"
+  },
+  "keywords": [
+    "FiberHome"
+  ],
+  "author": "Sahil Chaddha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilchaddha/fiberhome-network-mapper/issues"
+  },
+  "homepage": "https://github.com/sahilchaddha/fiberhome-network-mapper#readme",
+  "dependencies": {
+    "@types/node": "^10.9.4",
+    "@types/request": "^2.47.1",
+    "cheerio": "^1.0.0-rc.2",
+    "cheerio-tableparser": "^1.0.1",
+    "request": "^2.88.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
